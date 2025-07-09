@@ -1,1 +1,17 @@
-
+使用C++刷题
+1. while(cin >>a){}   表示可能有多次输入
+2. 对于浮点数保留一位小数点输出 
+  #include<iomanip>
+  cout << fixed << setprecision(1) << a <<endl;
+3. 输入为同一行 比如 1 2 则可以使用cin >> a >> b;
+  如何不是同一行 就应该使用cin >> a; cin >> b;
+4. #include<cmath> 
+  floor(a)为向下取整
+  ceil(a)为向上取整
+  sqrt(a)为根号
+  abs(a)是取绝对值
+  fabs(a)是对浮点数取绝对值
+5. #include<algorithm>
+  string s;
+  reverse(s.begin(),s.end())反转字符串
+6.如果输出不对的话，可以看看是不是越界了，比如应该用long long,你却用了int。

@@ -1,4 +1,4 @@
 使用C++刷题
-牛客网 新手入门题 https://www.nowcoder.com/exam/oj/ta?tpId=383 46
+牛客网 新手入门题 https://www.nowcoder.com/exam/oj/ta?tpId=383 46-47
 1. 46题约瑟夫环 可以使用数组来记录状态 47题也可以用这样的方法（用数组元素0或者1表示是否被移除）
 2. vector<int> a(l+1,0); 这样初始化所有的元素为0.

@@ -1,1 +1,6 @@
-
+使用C++刷题
+牛客网 新手入门题 https://www.nowcoder.com/exam/oj/ta?tpId=383 48-51
+1. 测试用例不通过可能是因为越界了 使用long long 
+2. 使用vector创建二维数组
+  vector<vector <int>> matrix(n,vector<int>(n));
+3. 注意看看数组有没有越界什么的

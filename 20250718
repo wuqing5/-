@@ -1,1 +1,10 @@
+使用C++刷题
+牛客网 新手入门题 https://www.nowcoder.com/exam/oj/ta?tpId=383 52
+1.当需要进行九宫格判断，但是边缘位置无法进行判断，可以将棋盘扩大一圈，由原本的n行m列变成n+2行m+2列。像这样
+// 初始化棋盘
+    for(int i=0;i<n+2;i++){
+        for(int j=0;j<m+2;j++){
+            matrix[i][j]='0';
+        }
+    }
 

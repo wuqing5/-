@@ -1,3 +1,8 @@
+使用C++刷题
+牛客网 新手入门题 https://www.nowcoder.com/exam/oj/ta?tpId=383 53-55
 1. 字符串可以直接用==看是否相等 像这样 
    string s1;
    if(s1=="elephant")
+2.string s1;int j=0;s[j]='*';
+   这样赋值会报错。因为这里string s1没有预定义长度，所以访问j位置时可能没有空间，导致运行时错误或者未定义行为。
+   可以使用+=操作符进行增加，像这样s1+='*'。

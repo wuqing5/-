@@ -1,1 +1,5 @@
-
+使用C++刷题
+牛客网 新手入门题 https://www.nowcoder.com/exam/oj/ta?tpId=383 56-61
+1. c++中将数字转换为字符串的函数是to_string(num)。
+2. c++中将小写字符转换为大写字符的函数是toupper(char)；
+3. string s;使用cin >> s时，只会读取到第一个空白字符（空格、换行等），可以使用getline(cin,s)来读取整行，包括空格。
